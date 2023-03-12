@@ -4,7 +4,20 @@
     border: none;
 }
 
-
 body {
     font-family: Arial, Helvetica, sans-serif;
+    color: rgb(84, 83, 83);
+}
+
+/*heading and logo */
+
+h1, h2 {font-family: 'Lucida Sans';
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color:black;
+}
+
+#logo {
+    float: left;
+    font-size: 250%;
 }
