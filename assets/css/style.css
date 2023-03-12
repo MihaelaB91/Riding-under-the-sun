@@ -19,5 +19,26 @@ h1, h2 {font-family: 'Lucida Sans';
 
 #logo {
     float: left;
-    font-size: 250%;
+    font-size: 200%;
 }
+
+/*navigation links*/
+
+#menu {
+    font-size: 100%;
+    letter-spacing: 3px;
+}
+
+#menu, #logo { 
+    line-height: 70px;
+}
+
+#menu li{
+    float:right;
+    list-style-type:none;
+    margin-right: 35px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: rgb(84, 83, 83);}
