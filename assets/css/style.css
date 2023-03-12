@@ -1,3 +1,7 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Raleway:wght@300&display=swap');
+
+
 * {
     margin: 0;
     padding: 0;
@@ -5,13 +9,15 @@
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    color: rgb(84, 83, 83);
+    font-family: Raleway, sans-serif;
+    font-weight: 400;
+    color: black;
 }
 
 /*heading and logo */
 
-h1, h2 {font-family: 'Lucida Sans';
+h1, h2 {font-family: Montserrat;
+    font-weight: 300;
     text-transform: uppercase;
     letter-spacing: 3px;
     color:black;
@@ -25,7 +31,7 @@ h1, h2 {font-family: 'Lucida Sans';
 /*navigation links*/
 
 #menu {
-    font-size: 100%;
+    font-size: 130%;
     letter-spacing: 3px;
 }
 
@@ -42,3 +48,17 @@ h1, h2 {font-family: 'Lucida Sans';
 #menu a {
     text-decoration: none;
     color: rgb(84, 83, 83);}
+
+    /* cover image*/
+
+#cover-outer{
+    height: 700px;
+width: 100%;
+overflow: hidden;
+}
+
+    #cover-image{
+        height: 700px;
+width: 100%;
+background: url('../images/cover-image3.jpg') no-repeat center center;
+    }
