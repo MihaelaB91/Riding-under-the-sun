@@ -113,3 +113,37 @@ hr{
     margin: 20px 0;
     font-size: 200%;
 }
+
+#right-picture-container{
+    width: 500px;
+    height: 300px;
+    padding: 20px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    float: left;
+    margin-top: 20px;
+}
+
+#picture-cover-bg{
+    background: url('../images/rsz_1right_1.jpg') no-repeat center center;
+    height: 100%;
+}
+
+#right-picture-down{
+    width: 500px;
+    height: 300px;
+    padding: 20px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    float: left;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+}
+
+#picture-cover-bg-down{
+    background: url('../images/rsz_right_2.jpg') no-repeat center center;
+    height: 100%;
+}
