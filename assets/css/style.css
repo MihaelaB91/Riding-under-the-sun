@@ -1,5 +1,4 @@
-
-  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Raleway:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Raleway:wght@300&display=swap');
 
 
 * {
@@ -16,16 +15,19 @@ body {
 
 /*heading and logo */
 
-h1, h2 {font-family: Montserrat;
+h1,
+h2 {
+    font-family: Montserrat;
     font-weight: 300;
     text-transform: uppercase;
     letter-spacing: 3px;
-    color:black;
+    color: black;
 }
 
 #logo {
     float: left;
     font-size: 200%;
+    margin-left: 20px;
 }
 
 /*navigation links*/
@@ -35,30 +37,55 @@ h1, h2 {font-family: Montserrat;
     letter-spacing: 3px;
 }
 
-#menu, #logo { 
+#menu,
+#logo {
     line-height: 70px;
 }
 
-#menu li{
-    float:right;
-    list-style-type:none;
+#menu li {
+    float: right;
+    list-style-type: none;
     margin-right: 35px;
 }
 
 #menu a {
     text-decoration: none;
-    color: rgb(84, 83, 83);}
-
-    /* cover image*/
-
-#cover-outer{
-    height: 700px;
-width: 100%;
-overflow: hidden;
+    color: rgb(84, 83, 83);
 }
 
-    #cover-image{
-        height: 700px;
-width: 100%;
-background: url('../images/cover-image3.jpg') no-repeat center center;
-    }
+/* cover image*/
+
+#cover-outer {
+    height: 700px;
+    width: 100%;
+    overflow: hidden;
+}
+
+#cover-image {
+    height: 700px;
+    width: 100%;
+    background: url('../images/cover-image3.jpg') no-repeat center center;
+}
+
+/* About us section */
+
+#about-us {
+    height: 700px;
+}
+
+#left-about {
+    padding-top: 30px;
+    width: 35%;
+    float: left;
+}
+
+#right-about {
+    padding-top: 30px;
+    width: 35%;
+    float: right;
+}
+
+#center-about {
+    width: 33%;
+    margin: 0 auto;
+}
