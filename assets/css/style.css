@@ -71,6 +71,8 @@ h2 {
 
 #about-us {
     height: 700px;
+    margin-left: 40px;
+    margin-top: 40px;
 }
 
 #left-about {
@@ -88,4 +90,26 @@ h2 {
 #center-about {
     width: 33%;
     margin: 0 auto;
+}
+
+hr{
+    border-top: 1px dashed black;
+    width: 100%;
+    margin: 6px 0;
+}
+
+.left-about-heading{
+    width: 60%;
+    margin-left: 20px;
+    line-height: 30px;
+    clear: both;
+    margin-top: 50px;
+    background-color: rgb(221, 218, 218);
+}
+
+#welcome {
+    text-align: center;
+    font-weight: bold;
+    margin: 20px 0;
+    font-size: 200%;
 }
