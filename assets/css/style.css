@@ -18,7 +18,7 @@ body {
 h1,
 h2 {
     font-family: Montserrat;
-    font-weight: 300;
+    font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 3px;
     color: black;
@@ -99,20 +99,20 @@ hr{
 }
 
 .left-about-heading{
-    width: 60%;
+    width: 70%;
     margin-left: 20px;
     line-height: 30px;
     float: left;
     clear: both;
     margin-top: 50px;
-    background-color: rgb(221, 218, 218);
+    
 }
 
 #welcome {
     text-align: center;
     font-weight: bold;
     margin: 20px 0;
-    font-size: 200%;
+    font-size: 150%;
 }
 
 /* Style right section main page */
@@ -161,6 +161,7 @@ hr{
     border-color: black;
     border-width: 1px;
        margin: 0 auto;
+
 }
 
 #center-picture-bg{
