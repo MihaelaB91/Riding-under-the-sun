@@ -70,7 +70,7 @@ h2 {
 /* About us section */
 
 #about-us {
-    height: 700px;
+    min-height: 100vh;
     margin-left: 40px;
     margin-top: 40px;
 
@@ -110,7 +110,7 @@ hr {
     line-height: 30px;
     float: left;
     clear: both;
-    
+
 }
 
 #welcome {
@@ -201,7 +201,7 @@ hr {
     column-gap: normal;
 }
 
-#photos>img {
+#photos > img {
     width: 100%;
 }
 
@@ -253,8 +253,8 @@ footer {
     position: absolute;
     width: 100%;
     text-align: center;
-    padding-top: 250px;
-    margin-top: 50px;
+    margin-top: auto;
+
 }
 
 .social-networks {
@@ -276,41 +276,92 @@ footer {
 /* For larger to mediun screen size from 1500 px wide and down */
 
 @media screen and (max-width: 1500px) {
-#about-us {
-    width: 65%;
-    height: 1200px;
-    margin: 0 auto;
-}
+    #about-us {
+        width: 65%;
+        height: 1200px;
+        margin: 0 auto;
+    }
 
-#welcome{
-    padding: 10% 0;
-}
+    #welcome {
+        padding: 10% 0;
+    }
 
-#left-about, #right-about{
-    width: 100%;
-    float: left;
-    padding: 0;
-}
-#center-about{
-    clear: both;
-    width: 100%;
-    float: left;
-    padding: 0;
-}
+    #left-about,
+    #right-about {
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
 
-hr{
-    display: none;
-}
-}
+    #center-about {
+        clear: both;
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+
+
+    hr {
+        display: none;
+    }
+
+        }
+
+
 
 /*For mediun screen sizes from 900px wide and down */
-@media screen and (max-width: 900px){
+@media screen and (max-width: 900px) {
 
-    #menu{
+    #menu {
         clear: left;
         float: left;
         margin-left: 30px;
         margin-bottom: 20px;
         line-height: 25px;
     }
+
+    #about-us {
+        width: 90%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+
+    .left-about-heading,
+    .right-about {
+        width: inherit;
+    }
+
+.left-about-heading h2, {
+        
+        width: 100%;
+        text-align: center;
+    }
+
+    .left-about-heading p  {
+        text-align: center;
+        padding: 0 20px;
+    }
+
+    .opening-about-heading  {
+        width: 100%;
+        text-align: center;
+    }
+      /* Sticky Styling */
+
+      footer {
+        position: -webkit-sticky;
+        position: sticky;
+        bottom: 0;
+      }
+
+      #photos{
+        column-count: 3;
+      }
 }
+
+@media screen and (max-width: 800px) {
+    #photos{
+        column-count: 2;
+    }
+}
+
