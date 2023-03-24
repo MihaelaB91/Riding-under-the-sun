@@ -38,18 +38,17 @@
 <p>Calendar of Events: A section that displays the club's upcoming events, shows, and activities, with the date, time, location, and a brief description.</p>
 <p>Membership: A section that outlines the different types of membership available, the benefits of each membership level, and how to become a member.</p>
 <p>News and Updates: A section that features the latest news and updates about the club, such as new initiatives, programs, or services, and any changes to the schedule.</p>
-
+<br>
 <h3>Testing</h3>
 <h3>Validator testing</h3>
 <h3>Unfixed bugs</h3>
 <h3>Deployment</h3>
-
-
-
-
-
-
-
+<p></p>The site was deployed to GitHub pages. The steps to deploy are as follows:<p>
+<p>-In the GitHub repository, navigate to the Settings tab</p>
+<p>-From the source section drop-down menu, select the Master Branch</p>
+<p>-Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.</p>
+<p>-The live link can be found here - https://mihaelab91.github.io/Riding-under-the-sun/</p>
+<br>
 <h3>Credits</h3>
 <p>Fonts were imported from website https://fonts.google.com/</p>
 <p>Main picture and the pictures from the gallery were downloaded from https://www.pexels.com/</p>
