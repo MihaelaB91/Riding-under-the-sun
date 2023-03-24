@@ -314,11 +314,7 @@ hr {
     hr {
         display: none;
     }
-  footer {
-    position:-webkit-sticky;
-    position: sticky;
-    bottom: 0;
-  }
+
 
 
 }
