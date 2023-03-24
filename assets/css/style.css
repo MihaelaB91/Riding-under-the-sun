@@ -46,7 +46,7 @@ h2 {
     float: right;
     list-style-type: none;
     margin-right: 5%;
- }
+}
 
 #menu a {
     text-decoration: none;
@@ -62,11 +62,11 @@ h2 {
 }
 
 
-    #cover-image {
-        height: 700px;
-        width: 100%;
-        background: url('../images/cover-image3.jpg') no-repeat center center;
-           }
+#cover-image {
+    height: 700px;
+    width: 100%;
+    background: url('../images/cover-image3.jpg') no-repeat center center;
+}
 
 
 /* About us section */
@@ -75,29 +75,24 @@ h2 {
     min-height: 100vh;
     margin-left: 40px;
     margin-top: 40px;
-
 }
 
 #left-about {
     padding-top: 10px;
     width: 35%;
     float: left;
-
-
 }
 
 #right-about {
     padding-top: 30px;
     width: 35%;
     float: right;
-
 }
 
 #center-about {
     width: 33%;
     margin: 0 auto;
     padding-top: 50px;
-
 }
 
 hr {
@@ -112,7 +107,6 @@ hr {
     line-height: 30px;
     float: left;
     clear: both;
-
 }
 
 #welcome {
@@ -152,7 +146,6 @@ hr {
     margin-top: 30px;
     margin-bottom: 30px;
     margin-left: 80px;
-
 }
 
 #right-picture-bg-down {
@@ -203,20 +196,22 @@ hr {
     column-gap: normal;
 }
 
-#photos > img {
+#photos>img {
     width: 100%;
 }
 
 /* style footer*/
 
-  
+
 #footer {
     position: fixed;
     bottom: 0;
     width: 100%;
-    height: 60px;   /* Height of the footer */
+    height: 60px;
+    /* Height of the footer */
     background: #6cf;
- }
+}
+
 /*Style table*/
 
 #service {
@@ -265,7 +260,7 @@ hr {
     text-align: center;
 }
 
-.social-networks > li {
+.social-networks>li {
     display: inline;
 }
 
@@ -310,19 +305,14 @@ hr {
         padding: 0;
     }
 
-
     hr {
         display: none;
     }
-
-
-
 }
 
 /*For mediun screen sizes from 900px wide and down */
-@media screen and (max-width: 900px) {
 
-   
+@media screen and (max-width: 900px) {
     #menu {
         clear: left;
         float: left;
@@ -342,8 +332,8 @@ hr {
         width: inherit;
     }
 
-    .left-about-heading, h2 
-        {
+    .left-about-heading,
+    h2 {
 
         width: 100%;
         text-align: center;
@@ -358,8 +348,7 @@ hr {
         width: 100%;
         text-align: center;
     }
-    
-  
+
     #photos {
         column-count: 3;
     }
