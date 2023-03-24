@@ -45,8 +45,8 @@ h2 {
 #menu li {
     float: right;
     list-style-type: none;
-    margin-right: 35px;
-}
+    margin-right: 5%;
+ }
 
 #menu a {
     text-decoration: none;
@@ -61,11 +61,13 @@ h2 {
     overflow: hidden;
 }
 
-#cover-image {
-    height: 700px;
-    width: 100%;
-    background: url('../images/cover-image3.jpg') no-repeat center center;
-}
+
+    #cover-image {
+        height: 700px;
+        width: 100%;
+        background: url('../images/cover-image3.jpg') no-repeat center center;
+           }
+
 
 /* About us section */
 
@@ -324,6 +326,7 @@ hr {
 /*For mediun screen sizes from 900px wide and down */
 @media screen and (max-width: 900px) {
 
+   
     #menu {
         clear: left;
         float: left;
@@ -359,8 +362,8 @@ hr {
         width: 100%;
         text-align: center;
     }
-
-   
+    
+  
     #photos {
         column-count: 3;
     }
@@ -371,3 +374,4 @@ hr {
         column-count: 2;
     }
 }
+
